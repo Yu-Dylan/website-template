@@ -110,7 +110,7 @@ class NavigationAuth extends React.Component {
                   </div>
               </nav>
             </div>
-            {!!this.props.authUser.roles[ROLES.STUDENT] && (
+            {!!this.props.authUser.roles[ROLES.TEST_TAKER] && (
                 <div style={{paddingLeft: "2.5em"}}>
                 <nav id="site-nav" className = {isActive ? "is-active" : ""} role="navigation">
 
